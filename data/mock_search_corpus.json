@@ -1,0 +1,55 @@
+{
+  "_comment": "Mock knowledge base for the web_search tool. Each entry is a fake 'page' the mock search engine can retrieve. This stands in for a real search API (Google/Bing/SerpAPI) so the agent is fully runnable offline and deterministically testable. Swap MockSearchTool for a real API client without touching the rest of the agent.",
+  "documents": [
+    {
+      "title": "Retrieval-Augmented Generation (RAG) Overview",
+      "url": "https://example.com/rag-overview",
+      "snippet": "Retrieval-Augmented Generation combines a retriever that fetches relevant documents with a generative model that conditions its answer on those documents, reducing hallucination and enabling up-to-date answers without retraining the model."
+    },
+    {
+      "title": "AI Agents vs. Chatbots",
+      "url": "https://example.com/agents-vs-chatbots",
+      "snippet": "Unlike a chatbot that produces a single response per turn, an AI agent plans a sequence of actions, calls external tools (search, code execution, APIs), observes results, and iterates until a goal is satisfied."
+    },
+    {
+      "title": "LangGraph and Stateful Agent Workflows",
+      "url": "https://example.com/langgraph-intro",
+      "snippet": "LangGraph models an agent as a graph of nodes (planning, tool-calling, reflection) with explicit state passed along edges, making multi-step agent behavior easier to debug and control than a single long prompt."
+    },
+    {
+      "title": "Token Costs of Large Language Models",
+      "url": "https://example.com/llm-token-costs",
+      "snippet": "LLM API costs scale with the number of tokens in both the prompt and the completion. Agent architectures that re-send the full conversation history at every step incur quadratic-ish token growth as the history lengthens, which is a major cost driver in production agent systems."
+    },
+    {
+      "title": "Autonomous Agent Memory Systems",
+      "url": "https://example.com/agent-memory",
+      "snippet": "Persistent memory lets an agent recall facts, prior plans, and user preferences across sessions. Simple implementations store key-value or document records in JSON or a vector database, retrieved and injected into future prompts."
+    },
+    {
+      "title": "Resume Screening with NLP",
+      "url": "https://example.com/resume-screening-nlp",
+      "snippet": "Automated resume screening typically extracts keywords and skills from a job description, then scores candidate resumes by keyword overlap, semantic similarity, or structured field matching (years of experience, education, certifications)."
+    },
+    {
+      "title": "Prompt Caching and Cost Reduction",
+      "url": "https://example.com/prompt-caching",
+      "snippet": "Prompt caching lets an LLM provider reuse the computation for a repeated prefix of a prompt, cutting cost and latency for agent loops that resend a large, mostly-unchanged system prompt or tool schema on every call."
+    },
+    {
+      "title": "Planning in Autonomous Agents",
+      "url": "https://example.com/agent-planning",
+      "snippet": "A planning step decomposes a high-level goal into an ordered list of sub-tasks up front, as opposed to a purely reactive loop that decides the next action one step at a time. Upfront planning uses fewer LLM calls but is less adaptive to surprises."
+    },
+    {
+      "title": "ReAct: Reasoning and Acting in Language Models",
+      "url": "https://example.com/react-paper-summary",
+      "snippet": "The ReAct pattern interleaves reasoning traces ('Thought') with actions ('Action') and their results ('Observation'), letting a model verbally plan, call a tool, react to the result, and re-plan in a single auditable loop."
+    },
+    {
+      "title": "Small Models and Deterministic Tools in Agent Pipelines",
+      "url": "https://example.com/small-models-deterministic-tools",
+      "snippet": "Hybrid agent designs push as much work as possible into cheap, deterministic code (calculators, regex, database lookups) and reserve the large generative model only for steps that truly require language understanding or open-ended reasoning."
+    }
+  ]
+}

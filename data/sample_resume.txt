@@ -1,0 +1,22 @@
+Nikhil Sharma
+B.Tech Computer Science, IIIT Delhi
+
+Summary:
+Final-year CS student with hands-on experience building Python backends, automation
+tools, and small machine learning projects. Comfortable working with LLM APIs and
+interested in agentic AI systems.
+
+Skills:
+Python, Java, C++, SQL, Git, REST APIs, basic PyTorch, prompt engineering,
+LangChain (course project), Docker, Linux
+
+Experience:
+- Built a CLI tool in Python that automates repetitive data-cleaning tasks for a
+  university research lab, including logging and JSON-based config.
+- Implemented a small RAG prototype for course notes search using embeddings and
+  a vector store, with a Streamlit front end.
+- Contributed to an open-source Kubernetes plugin (Go), fixing bugs and writing tests.
+
+Education:
+B.Tech in Computer Science and Engineering, IIIT Delhi, expected 2026.
+Relevant coursework: Machine Learning, Natural Language Processing, Distributed Systems.

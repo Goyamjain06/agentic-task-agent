@@ -1,0 +1,17 @@
+Job Title: Machine Learning Engineer, Agentic AI
+
+We are looking for a Machine Learning Engineer to join our agentic AI team.
+
+Responsibilities:
+- Design and build autonomous agents that plan, call tools, and use memory
+- Work with LLMs (GPT, Claude, Llama) and frameworks such as LangChain and LangGraph
+- Build evaluation pipelines to measure agent reliability and cost
+- Optimize token usage and latency for production agent systems
+- Collaborate with product and research teams on new agent capabilities
+
+Requirements:
+- Strong Python skills
+- Experience with LLM APIs, prompt engineering, and tool-calling agents
+- Familiarity with vector databases, RAG, and memory systems
+- Understanding of software engineering best practices (testing, logging, CI)
+- Excellent communication and documentation skills
